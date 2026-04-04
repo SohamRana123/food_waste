@@ -1,6 +1,18 @@
 [build]
+<<<<<<< HEAD
 command = "npm run build"
 publish = "dist"
 
 [build.environment]
 PYTHON_VERSION = "3.11.4"
+=======
+  base = "frontend"
+  command = "npm run build"
+
+# Next.js on Netlify: handles .next output and server-side features (e.g. rewrites).
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  PYTHON_VERSION = "3.11.4"
+>>>>>>> 3817146 (Update)
