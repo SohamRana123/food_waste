@@ -1,3 +1,0 @@
-# Pins Python for Netlify (mise) so pip installs pandas from wheels, not 3.14 source builds.
-[tools]
-python = "3.11.4"
